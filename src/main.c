@@ -6,10 +6,10 @@ int main(){
     Particle p1 = {
         .position = (Vector2){
             GetRandomValue(0, GetScreenWidth()/4),
-            GetRandomValue(0, GetScreenHeight()/4),
+            GetRandomValue(0, GetScreenHeight()*0.8f),
         },
         .velocity = (Vector2){
-            200.0f, -100.0f
+            600.0f, -300.0f
         }
     };
     Pendulum pendulum = {
